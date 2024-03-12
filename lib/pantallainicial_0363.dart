@@ -8,8 +8,8 @@ class PantallaInicial_0363 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla Inicial Gonzalez0363"),
-        backgroundColor: Color(0xfff707ff),
+        title: Text("Card container Gonzalez0363"),
+        backgroundColor: Color(0xfff707d6),
       ),
       body: Center(
         child: Column(
@@ -19,13 +19,13 @@ class PantallaInicial_0363 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0363");
               },
-              child: Text("mover a pantalla 1"),
+              child: Text("Ejemplo Card"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla2_0363");
               },
-              child: Text("mover a pantalla 2"),
+              child: Text("Ejemplo Container"),
             )
           ], //ninos widgets
         ),

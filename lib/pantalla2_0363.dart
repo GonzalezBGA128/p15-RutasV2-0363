@@ -9,18 +9,28 @@ class Pantalla2_0363 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla 2 Gonzalez0363"),
-        backgroundColor: Color(0xfff707ff),
+        title: Text("Card 2 Gonzalez0363"),
+        backgroundColor: Color(0xff62049a),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {}, //si presiona boton
-              child: Text("Pantalla"),
-            )
-          ],
+        child: Container(
+          color: Color(0xffd065e3),
+          width: double.infinity,
+          height: 250,
+          child: Card(
+            elevation: 10,
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+            color: Color(0xff62049a),
+            margin: EdgeInsets.all(32),
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                'Grecia Arely Gonzalez Barraza 0363',
+                style: TextStyle(fontSize: 30, color: Colors.white),
+              ),
+            ),
+          ),
         ),
       ),
     );
