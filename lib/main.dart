@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gonzalez0363/pantalla2_0363.dart';
 import 'package:gonzalez0363/pantallainicial_0363.dart';
 import 'package:gonzalez0363/pantalla1_0363.dart';
+import 'package:gonzalez0363/pantalla3_0363.dart';
 
 void main() => runApp(MiApp0363());
 
@@ -16,6 +17,7 @@ class MiApp0363 extends StatelessWidget {
         "/": (context) => PantallaInicial_0363(),
         "/Pantalla1_0363": (context) => Pantalla1_0363(),
         "/Pantalla2_0363": (context) => Pantalla2_0363(),
+        "/Pantalla3_0363": (context) => Pantalla3_0363(),
       },
     );
   } //fin widgets

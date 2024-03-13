@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//Pantalla1_0367
+//Pantalla1_0363
 class Pantalla1_0363 extends StatelessWidget {
   const Pantalla1_0363({Key? key}) : super(key: key);
 
@@ -8,22 +8,23 @@ class Pantalla1_0363 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Card p1 Gonzalez0363"),
-        backgroundColor: Color(0xffff07d6),
+        title: Text("Pantalla 1 Gonzalez0363"),
+        backgroundColor: Color(0xff020fbf),
       ),
       body: Center(
-          child: Card(
-        elevation: 10,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-        color: Color(0xfff684f0),
-        child: Padding(
-          padding: EdgeInsets.all(20),
+        child: Container(
+          color: Color(0xff5ebfff),
+          width: 230,
+          height: 230,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
           child: Text(
-            "Card Gonzalez",
-            style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
+            'Grecia Arely Gonzalez Barraza 0363 ',
+            style: TextStyle(fontSize: 30),
           ),
         ),
-      )),
+      ),
     );
   }
 } //fin pantalla 1

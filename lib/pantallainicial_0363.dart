@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//PantallaInicial_0367
+//PantallaInicial_0363
 
 class PantallaInicial_0363 extends StatelessWidget {
   const PantallaInicial_0363({Key? key}) : super(key: key);
@@ -19,13 +19,28 @@ class PantallaInicial_0363 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0363");
               },
-              child: Text("Ejemplo Card"),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.blue,
+              ),
+              child: Text("Pantalla 1"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla2_0363");
               },
-              child: Text("Ejemplo Container"),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.green,
+              ),
+              child: Text("Pantalla 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/Pantalla3_0363");
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.orange,
+              ),
+              child: Text("Pantalla 3"),
             )
           ], //ninos widgets
         ),
